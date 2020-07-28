@@ -15,36 +15,62 @@ class Project extends Model implements Sortable
         'published',
         'title',
         'subtitle',
-        'owner',
+        'showOnIndex',
         'description',
         'publish_start_date',
     ];
     public $mediasParams = [
         'imagenDeProyecto' => [
-            'HP_feature' => [
-                [
-                    'name' => 'HP_feature',
-                    'ratio' => 16 / 9,
-                ],
-            ],
-            'article_feature' => [
-                [
-                    'name' => 'article_feature',
-                    'ratio' => 120 / 50,
-                ],
-            ],
-            'tablet' => [
-                [
-                    'name' => 'tablet',
-                    'ratio' => 750 / 520,
-                ],
-            ],
-            'phone' => [
-                [
-                    'name' => 'phone',
-                    'ratio' => 470 / 400,
-                ],
+        'HP_feature' => [
+            [
+                'name' => 'HP_feature',
+                'ratio' => 16 / 9,
             ],
         ],
+        'article_feature' => [
+            [
+                'name' => 'article_feature',
+                'ratio' => 120 / 50,
+            ],
+        ],
+        'tablet' => [
+            [
+                'name' => 'tablet',
+                'ratio' => 750 / 520,
+            ],
+        ],
+        'phone' => [
+            [
+                'name' => 'phone',
+                'ratio' => 470 / 400,
+            ],
+        ],
+    ],
+        'carruselDeProyecto' => [
+        'HP_feature' => [
+            [
+                'name' => 'HP_feature',
+                'ratio' => 16 / 9,
+            ],
+        ],
+        'article_feature' => [
+            [
+                'name' => 'article_feature',
+                'ratio' => 120 / 50,
+            ],
+        ],
+        'tablet' => [
+            [
+                'name' => 'tablet',
+                'ratio' => 750 / 520,
+            ],
+        ],
+        'phone' => [
+            [
+                'name' => 'phone',
+                'ratio' => 470 / 400,
+            ],
+        ],
+    ]
     ];
 }

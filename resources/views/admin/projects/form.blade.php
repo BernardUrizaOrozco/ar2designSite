@@ -1,6 +1,10 @@
 @extends('twill::layouts.form')
 
 @section('contentFields')
+    @formField('checkbox', [
+        'name' => 'showOnIndex',
+        'label' => 'Mostrar en Inicio'
+    ])
     @formField('input', [
         'name' => 'title',
         'label' => 'Título',
@@ -14,11 +18,6 @@
     @formField('tags', [
         'label' => 'Tags'
     ])
-    @formField('input', [
-        'name' => 'owner',
-        'label' => 'Propietario',
-        'maxlength' => 200
-    ])
     @formField('wysiwyg', [
         'name' => 'description',
         'label' => 'Descripción',
@@ -31,6 +30,11 @@
     ])
     @formField('medias', [
         'name' => 'imagenDeProyecto',
-        'label' => 'Imagen',
+        'label' => 'Imagen del banner',
+    ])
+    @formField('medias', [
+        'name' => 'carruselDeProyecto',
+        'label' => 'Imágenes del carrusel',
+        'max' => 9999,
     ])
 @stop
