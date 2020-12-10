@@ -81,7 +81,7 @@
                             <article class="media">
                                 <div class="media-left">
                                     <figure class="image is-64x64 ">
-                                        <img src="/img/twitter-profile-guy.jpg" alt="Image">
+                                        <img src="/assets/img/twitter-profile-guy.jpg" alt="Image">
                                     </figure>
                                 </div>
                                 <div class="media-content">
@@ -121,7 +121,7 @@
                             <article class="media">
                                 <div class="media-left">
                                     <figure class="image is-64x64 ">
-                                        <img src="img/twitter-profile-girl.jpg" alt="Image">
+                                        <img src="/assets/img/twitter-profile-girl.jpg" alt="Image">
                                     </figure>
                                 </div>
                                 <div class="media-content">
@@ -177,7 +177,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img class="feature-img" src="img/feature1.png" alt="feature" />
+                        <img class="feature-img" src="/assets/img/feature1.png" alt="feature" />
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                 <div class="columns">
 
                     <div class="column">
-                        <img class="feature-img" src="img/feature2.png" alt="feature" />
+                        <img class="feature-img" src="/assets/img/feature2.png" alt="feature" />
                     </div>
                     <div class="column">
                         <h3 class="is-size-3">
@@ -212,7 +212,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img class="feature-img" src="img/feature3.png" alt="feature" />
+                        <img class="feature-img" src="/assets/img/feature3.png" alt="feature" />
                     </div>
                 </div>
             </div>
