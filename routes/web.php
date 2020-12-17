@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/template/{nameTemplate}', function ($nameTemplate) {
+    return view($nameTemplate);
+});
+
 Route::get('/proyectos', function () {
     return view('projects',['name'=>'proyecto1','description'=>'Lorem Impsum']);
 });
