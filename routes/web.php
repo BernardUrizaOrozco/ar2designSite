@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +15,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $projects = DB::table('projects')->get();
+    return view('templates.absurd');
 });
 
-Route::get('/template/{nameTemplate}', function ($nameTemplate) {
-    return view($nameTemplate);
+Route::get('/plantillas', function () {
+    return view('templatesMenu');
 });
 
-Route::get('/proyectos', function () {
-    return view('projects',['name'=>'proyecto1','description'=>'Lorem Impsum']);
+Route::get('/plantilla/{nameTemplate}', function ($nameTemplate) {
+    return view('templates.'.$nameTemplate);
+});
+
+Route::get('/projects', function () {
+    $projects = DB::table('projects')->get();
+    return $projects;
 });
