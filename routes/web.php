@@ -13,7 +13,11 @@ use Illuminate\Support\Facades\DB;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::name('homepage')->get('/', 'PageController@homepage');
+
+Route::get('/', function () {
+    $projects = DB::table('projects')->get();
+    return view('templates.absurd');
+});
 
 Route::get('/plantillas', function () {
     return view('templatesMenu');
