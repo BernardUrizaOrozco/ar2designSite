@@ -70,7 +70,9 @@
             is-4-widescreen is-offset-1-widescreen
             is-4-fullhd is-offset-1-fullhd">
                     <figure class="image is-square">
-                        <img src="/assets/images/undraw_Camera_re_cnp4.svg">
+                        <img
+                            src="{{$project->image('screengrab_desktop', 'default', ['w'=>900,'fit'=>null])}}" 
+                        >
                     </figure>
                 </div>
                 <div data-aos="fade-down" class="column
@@ -83,7 +85,7 @@
                         Hello-
                     </h1>
                     <h2 class="subtitled subtitle">
-                        <p>This is user {!! $project->image('imagenDeProyecto')  !!}</p>
+                        <p>This is user </p>
                     </h2>
                 </div>
 
