@@ -15,7 +15,7 @@ class ProjectRepository extends ModuleRepository
     public function __construct(Project $model)
     {
         $this->model = $model;
-    }
+    }/*
     public function prepareFieldsBeforeCreate($fields)
     {
         $fields['layout'] = 'regular';
@@ -33,7 +33,7 @@ class ProjectRepository extends ModuleRepository
         $fields = parent::getFormFields($object);
         $fields = $this->getFormFieldsForRepeater($object, $fields, 'credit', 'Credit');
         return $fields;
-    }
+    }*/
 
     public function allProjects()
     {
