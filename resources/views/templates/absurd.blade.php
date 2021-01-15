@@ -70,7 +70,9 @@
             is-4-widescreen is-offset-1-widescreen
             is-4-fullhd is-offset-1-fullhd">
                     <figure class="image is-square">
-                        <img src="/assets/images/undraw_Camera_re_cnp4.svg">
+                        <img
+                            src="{{$project->image('imagenDeProyecto', 'HP_feature', ['w'=>900,'fit'=>null])}}"
+                            alt="{{$project->title}}">
                     </figure>
                 </div>
                 <div data-aos="fade-down" class="column
@@ -80,11 +82,14 @@
             is-5-widescreen is-offset-1-widescreen
             is-5-fullhd is-offset-1-fullhd">
                     <h1 class="titled title is-1 mb-6">
-                        Hello-
+                        {!! $project->title  !!}
                     </h1>
                     <h2 class="subtitled subtitle">
-                        <p>This is user {!! $project->image('imagenDeProyecto')  !!}</p>
+                        <p>{!! $project->subtitle  !!}</p>
                     </h2>
+                    <h4 class="subtitled subtitle">
+                        <p>{!! $project->description  !!}</p>
+                    </h4>
                 </div>
 
             </div>

@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\DB;
 |
 */
 
-Route::get('/', function () {
-    $projects = DB::table('projects')->get();
-    return view('templates.absurd');
-});
+
+Route::name('homepage')->get('/', 'PageController@homepage');
 
 Route::get('/plantillas', function () {
     return view('templatesMenu');
