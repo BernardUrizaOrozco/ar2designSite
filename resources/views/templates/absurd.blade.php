@@ -37,20 +37,8 @@
     <div class="navbar-menu">
 
         <div class="navbar-end">
-            <a class="navbar-item">
-                WHY?
-            </a>
-
-            <a class="navbar-item">
-                BUY
-            </a>
-
-            <a class="navbar-item">
-                ILLUSTRATION SERIES
-            </a>
-
-            <a class="navbar-item">
-                EXCLUSIVE ILLUSTRATIONS
+            <a class="navbar-item" href="plantillas">
+                MORE TEMPLATES
             </a>
 
         </div>

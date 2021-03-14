@@ -12,7 +12,8 @@
         <meta name="description" content="Free bulma templates">
         <!-- Bulma Version 0.9.1 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
       </head>
 
 <body>

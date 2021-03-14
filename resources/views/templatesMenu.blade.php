@@ -391,11 +391,11 @@
                 </header>
                 <div class="card-content">
                     <figure class="image">
-                        <a href="templates/cards.html"><img src="assets/images/cards.png" alt="Cards template screenshot"></a>
+                        <a href="plantilla/cards"><img src="assets/images/cards.png" alt="Cards template screenshot"></a>
                     </figure>
                 </div>
                 <footer class="card-footer">
-                    <a href="templates/cards.html" class="card-footer-item"><i class="fas fa-search"></i>Preview</a>
+                    <a href="plantilla/cards" class="card-footer-item"><i class="fas fa-search"></i>Prever</a>
                     <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html"
                         class="card-footer-item"><i class="fas fa-code"></i>Source Code</a>
                 </footer>

@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section( 'content')
+<link rel="stylesheet" type="text/css" href="../assets/css/index.css">
 <div class="flex-center position-ref full-height">
     @if (Route::has('login'))
     <div class="top-right links">
